@@ -101,8 +101,6 @@ public class TestIterator {
     while (i.hasNext()) {
         sum += i.next();
     }
-    // (defined as the sum of the items divided by the number of items)
-    // testNonempty shows how to use an iterator; use i.hasNext() in the while loop condition
     assertEquals(61.3, sum / n, 0.1);
     assertEquals(7, n);
   }
